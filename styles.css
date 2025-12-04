@@ -40,14 +40,18 @@ header{
 
 h3{
 	text-align : center;
-
 }
 
+h2{
+	text-align : center;
+}
 .pictorial-news-section {
     background-color: white;
     border-radius: 20px;
     padding: 20px;
-    width: 20%;                       /* right narrow column */
+    margin: 2px;
+    width: 20%;
+    text-align: center;      /* ⭐ REQUIRED by Cypress */
 }
 
 .pictorial-news-section img {
