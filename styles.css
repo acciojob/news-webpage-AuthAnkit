@@ -15,28 +15,27 @@ header{
 	
 }
 
-.container{
-    display:flex;
-	justify-content :center ;
-	padding : 5%
-	
+.container {
+    display: flex;
+    justify-content: space-between;   /* space out the three items */
+    align-items: flex-start;          /* align top edge */
+    padding: 5%;
+    gap: 20px;                        /* space between the boxes */
+    flex-wrap: nowrap;                /* keep them in one row */
 }
 
-.latest-news-section{
-		background-color :white;
-	border-radius : 20px;
-	padding :5%;
-	margin:10px;
-	height : 120px;
-
-	
+.latest-news-section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 20%;                       /* left narrow column */
 }
 
-.main{
-	background-color :white;
-	border-radius : 20px;
-		padding :5%;
-	height:100px;
+.main {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;                       /* wide middle column */
 }
 
 h3{
@@ -44,9 +43,16 @@ h3{
 
 }
 
-.pictorial-news-section{
-	background-color :white;
-	border-radius : 20px;
-		padding :5%;
-		margin :2px;
+.pictorial-news-section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 20%;                       /* right narrow column */
+}
+
+.pictorial-news-section img {
+    width: 100%;                      /* make images fit box */
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
